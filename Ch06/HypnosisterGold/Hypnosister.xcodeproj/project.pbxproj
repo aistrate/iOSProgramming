@@ -22,6 +22,7 @@
 		353ECEAA18192A83001280FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 353ECEA818192A83001280FE /* InfoPlist.strings */; };
 		353ECEAC18192A83001280FE /* HypnosisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 353ECEAB18192A83001280FE /* HypnosisterTests.m */; };
 		353ECEB718192E0E001280FE /* HypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 353ECEB618192E0E001280FE /* HypnosisView.m */; };
+		3561DEE8181D66F40010F4FB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3561DEE7181D66F40010F4FB /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		353ECEAB18192A83001280FE /* HypnosisterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnosisterTests.m; sourceTree = "<group>"; };
 		353ECEB518192E0E001280FE /* HypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisView.h; sourceTree = "<group>"; };
 		353ECEB618192E0E001280FE /* HypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisView.m; sourceTree = "<group>"; };
+		3561DEE7181D66F40010F4FB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		353ECE8C18192A83001280FE /* Hypnosister */ = {
 			isa = PBXGroup;
 			children = (
+				3561DEE7181D66F40010F4FB /* Icon.png */,
 				3507D1AD181AF9F100099A79 /* Icon@2x.png */,
 				353ECE9518192A83001280FE /* HypnosisterAppDelegate.h */,
 				353ECE9618192A83001280FE /* HypnosisterAppDelegate.m */,
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3561DEE8181D66F40010F4FB /* Icon.png in Resources */,
 				353ECE9118192A83001280FE /* InfoPlist.strings in Resources */,
 				3507D1AE181AF9F100099A79 /* Icon@2x.png in Resources */,
 				353ECE9918192A83001280FE /* Images.xcassets in Resources */,

@@ -42,8 +42,9 @@
     CGContextClip(ctx);
     
     // Draw image
-    NSString *imageFile = [[NSBundle mainBundle] pathForResource:@"Icon@2x" ofType:@"png"];
-    UIImage *image = [[UIImage alloc] initWithContentsOfFile:imageFile];
+//    NSString *imageFile = [[NSBundle mainBundle] pathForResource:@"Icon@2x" ofType:@"png"];
+//    UIImage *image = [[UIImage alloc] initWithContentsOfFile:imageFile];
+    UIImage *image = [UIImage imageNamed:@"Icon.png"];
     [image drawInRect:bounds];
     
     // Draw gradient
