@@ -7,7 +7,6 @@
 //
 
 #import "DetailViewController.h"
-#import "DateViewController.h"
 #import "BNRItem.h"
 
 @implementation DetailViewController
@@ -69,20 +68,6 @@
     [nameField resignFirstResponder];
     [serialNumberField resignFirstResponder];
     [valueField resignFirstResponder];
-}
-
-- (IBAction)changeDate:(id)sender
-{
-    DateViewController *dateViewController = [DateViewController sharedController];
-    
-    [dateViewController setItem:item];
-    
-    [nameField resignFirstResponder];
-    [serialNumberField resignFirstResponder];
-    [valueField resignFirstResponder];
-    
-    [[self navigationController] pushViewController:dateViewController
-                                           animated:YES];
 }
 
 @end
